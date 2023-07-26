@@ -1,6 +1,4 @@
-import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import MyPDF from "/files/MukulAgrawal_resume.pdf";
 import UseAnimations from "react-useanimations";
 import email from "react-useanimations/lib/mail";
@@ -9,7 +7,7 @@ import instagram from "react-useanimations/lib/instagram";
 import githubIcon from "react-useanimations/lib/github";
 
 export const Home = () => {
-  const [emailId, setEmailId] = useState("agrawalmukul52@gmail.com");
+  const emailId= "agrawalmukul52@gmail.com";
   return (
     <div id="main">
       <img

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const WorkItem = (props: any) => {
   var { year, title, duration, details } = props?.workData;
   return (

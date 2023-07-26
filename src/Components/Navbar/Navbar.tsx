@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Navbar = () => {
   return (
     <div className="navBar flex justify-between items-center p-[3rem]">
