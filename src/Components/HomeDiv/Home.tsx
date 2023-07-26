@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import MyPDF from "/files/MukulAgrawal_resume.pdf";
+import MyResume from "/files/MukulAg_Resume.pdf";
 import UseAnimations from "react-useanimations";
 import email from "react-useanimations/lib/mail";
 import linkedIn from "react-useanimations/lib/linkedin";
@@ -82,7 +82,7 @@ export const Home = () => {
           </div>
           <div className="sm:text-xl text-xl mt-10 bg-gray-800 px-4 py-2 rounded-xl	 font-bold text-gray-400">
             <button>
-              <a href={MyPDF} download="Mukul_Resume.pdf">
+              <a href={MyResume} target="blank">
                 {" "}
                 Download CV{" "}
               </a>
