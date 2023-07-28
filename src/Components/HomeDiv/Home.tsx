@@ -5,7 +5,6 @@ import email from "react-useanimations/lib/mail";
 import linkedIn from "react-useanimations/lib/linkedin";
 import instagram from "react-useanimations/lib/instagram";
 import githubIcon from "react-useanimations/lib/github";
-import downLoadIcon from "react-useanimations/lib/download";
 
 export const Home = () => {
   const emailId= "agrawalmukul52@gmail.com";
@@ -83,15 +82,9 @@ export const Home = () => {
           </div>
           <div className="sm:text-xl text-xl mt-10 bg-gray-800 px-4 py-2 rounded-xl	 font-bold text-gray-400">
             <button>
-              <a className="flex" href={MyResume} target="blank">
+              <a href={MyResume} target="blank">
                 {" "}
-                Download CV&nbsp;
-              <UseAnimations
-              className="mt-0.5"
-                size={26}
-                animation={downLoadIcon}
-                strokeColor="rgb(156 163 175)"
-              />
+                Download CV{" "}
               </a>
 
               {/* Download Resume{" "} */}
