@@ -87,6 +87,7 @@ export const Home = () => {
                 {" "}
                 Download CV&nbsp;
               <UseAnimations
+              className="mt-0.5"
                 size={26}
                 animation={downLoadIcon}
                 strokeColor="rgb(156 163 175)"
